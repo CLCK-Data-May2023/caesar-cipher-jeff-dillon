@@ -29,8 +29,9 @@ original_sentence = original_sentence.lower()
 
 
 # ask for the number of characters to shift and convert it to a number
-shift = input("Number of characters to shift:")
-shift = int(shift)
+# shift = input("Number of characters to shift:")
+# shift = int(shift)
+shift = 5
 
 # encrypt the sentence
 encrypted_sentence = encrypt(original_sentence, shift)
