@@ -1,3 +1,4 @@
+# add your code here
 # function to adjust the index based on the provided shift
 def adjust_index(original_index : int, shift : int) -> int:
     adjusted_index = original_index + shift
@@ -28,8 +29,10 @@ original_sentence = original_sentence.lower()
 
 
 # ask for the number of characters to shift and convert it to a number
-shift = input("Number of characters to shift:")
-shift = int(shift)
+# shift = input("Number of characters to shift:")
+# shift = int(shift)
+# this is a new comment
+shift = 5
 
 # encrypt the sentence
 encrypted_sentence = encrypt(original_sentence, shift)
