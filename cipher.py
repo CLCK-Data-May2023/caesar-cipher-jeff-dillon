@@ -38,4 +38,4 @@ shift = 5
 encrypted_sentence = encrypt(original_sentence, shift)
 
 # print out the result
-print(f"Encrypted sentence is: {encrypted_sentence}")
+print(f"The encrypted sentence is: {encrypted_sentence}")
